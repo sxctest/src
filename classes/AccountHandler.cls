@@ -8,6 +8,8 @@ public class AccountHandler {
 		} catch (DmlException e){
 			System.debug('A DML exception has occused: '+ e.getMessage());
 			return null;
+
+			//just note here
 		}
 	}
 }
