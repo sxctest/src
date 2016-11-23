@@ -5,7 +5,7 @@
 			<apex:outputField value="{! Account.Phone }"/>
 			<apex:outputField value="{! Account.Industry }"/>
 			<apex:outputField value="{! Account.AnnualRevenue }"/>
-			<apex:outputField value="{! Account.Match_Billing_Address__c}"/>
+			<!-- <apex:outputField value="{! Account.Match_Billing_Address__c}"/> -->
 		</apex:pageBlockSection>
 	</apex:pageBlock>
 </apex:page>
