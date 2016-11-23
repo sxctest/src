@@ -16,7 +16,7 @@ public List<Contact> getContacts() {
         'SELECT Id, FirstName, LastName, Title, Email ' +
         'FROM Contact ' +
         'ORDER BY ' + sortOrder + ' ASC ' +
-        'LIMIT 10'
+        'LIMIT 20'
     );
     return results;
 }
